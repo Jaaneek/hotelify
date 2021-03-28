@@ -42,7 +42,7 @@ const HotelList: React.FC = () => {
           />
         </Styles.HotelCardsContainer>
         <Styles.ButtonContainer>
-          {totalAmount}$
+          Total amount: {totalAmount}$
           <Styles.Button onClick={() => history.push("/payment")}>
             Checkout
           </Styles.Button>

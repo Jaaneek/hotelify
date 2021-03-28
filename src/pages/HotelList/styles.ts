@@ -33,7 +33,6 @@ export const Button = styled.button`
   margin: 0 1em;
   padding: 0.25em 1em;
   transition: 0.5s all ease-out;
-
   &:hover {
     background-color: ${colors.primary};
     color: white;
@@ -42,6 +41,7 @@ export const Button = styled.button`
 
 export const ButtonContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  margin: 8px 0 8px 0;
 `;
