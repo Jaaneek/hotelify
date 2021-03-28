@@ -4,7 +4,7 @@ React showcase app, Styled Components, Formik, Typescript
 
 ## Demo
 
-Project is available at [Link](https://weather-app-liart-three.vercel.app/)
+Project is available at [Link](https://hotelify.vercel.app/)
 
 ## Start
 
