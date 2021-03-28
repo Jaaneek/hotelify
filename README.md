@@ -6,16 +6,6 @@ React showcase app, Styled Components, Formik, Typescript
 
 Project is available at [Link](https://weather-app-liart-three.vercel.app/)
 
-## Development
-
-You have to obtain an api key from [weather api](https://home.openweathermap.org/api_keys)
-
-Create .env at root of a project and paste the template with your API KEY
-
-```js
-REACT_APP_WEATHER_API_KEY=//Your api key here
-```
-
 ## Start
 
 ```
