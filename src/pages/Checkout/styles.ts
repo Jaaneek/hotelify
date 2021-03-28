@@ -86,3 +86,7 @@ export const Error = styled.p`
   margin: 4px 0 4px 0;
   color: #f20f17;
 `;
+
+export const Label = styled.h4`
+  margin-right: 8px;
+`;

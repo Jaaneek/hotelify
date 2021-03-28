@@ -51,7 +51,7 @@ const AuthPageComponent = (): React.ReactElement => {
     <Styles.Layout>
       <Styles.Container>
         <Styles.InputContainer>
-          <h4>Name</h4>
+          <Styles.Label>Name</Styles.Label>
           <div>
             <Styles.Input
               id="name"
@@ -63,7 +63,7 @@ const AuthPageComponent = (): React.ReactElement => {
           </div>
         </Styles.InputContainer>
         <Styles.InputContainer>
-          <h4>Address</h4>
+          <Styles.Label>Address</Styles.Label>
           <div>
             <Styles.Input
               id="address"
@@ -75,7 +75,7 @@ const AuthPageComponent = (): React.ReactElement => {
           </div>
         </Styles.InputContainer>
         <Styles.InputContainer>
-          <h4>Phone</h4>{" "}
+          <Styles.Label>Phone</Styles.Label>{" "}
           <div>
             <Styles.Input
               id="phoneNumber"
@@ -89,7 +89,7 @@ const AuthPageComponent = (): React.ReactElement => {
           </div>
         </Styles.InputContainer>
         <Styles.InputContainer>
-          <h4>E-mail</h4>
+          <Styles.Label>E-mail</Styles.Label>
           <div>
             <Styles.Input
               id="email"
