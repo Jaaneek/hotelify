@@ -35,9 +35,7 @@ const HotelCard: React.FC<Types.Props> = ({
           ></Styles.Logo>
           <Styles.Logo
             IsLoaded={!isImgLoaded}
-            src={
-              "http://oliclinic.pl/wp-content/uploads/2016/10/orionthemes-placeholder-image.png"
-            }
+            src={"/img-placeholder.png"}
           ></Styles.Logo>
           <Styles.TitleContainer>
             <Styles.Title> {name}</Styles.Title>
