@@ -13,7 +13,8 @@ const validationSchema = Yup.object().shape({
     .required("Please enter your email"),
   phoneNumber: Yup.string()
     .matches(phoneRegExp, "Phone number is not valid")
-    .optional(),
+    .min(9, "Phone no. must be atleast 9 digits")
+    .notRequired(),
   address: Yup.string().required("Please enter your address"),
 });
 
