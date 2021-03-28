@@ -11,6 +11,9 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  ${MEDIA_QUERIES.md} {
+    width: 280px;
+  }
 `;
 
 export const ContentContainer = styled.div`

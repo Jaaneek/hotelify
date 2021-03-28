@@ -1,3 +1,4 @@
+import { MEDIA_QUERIES } from "shared/mediaQueries";
 import colors from "shared/colors";
 import styled from "styled-components";
 
@@ -11,6 +12,9 @@ export const Container = styled.div`
 export const InnerContainer = styled(Container)`
   width: 640px;
   align-items: flex-end;
+  ${MEDIA_QUERIES.md} {
+    width: 280px;
+  }
 `;
 
 export const HotelCardsContainer = styled.div`
